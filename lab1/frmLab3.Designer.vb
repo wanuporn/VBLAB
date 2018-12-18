@@ -90,6 +90,7 @@ Partial Class frmLab3
         'cboSize
         '
         Me.cboSize.BackColor = System.Drawing.SystemColors.ActiveBorder
+        Me.cboSize.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cboSize.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cboSize.FormattingEnabled = True
         Me.cboSize.Items.AddRange(New Object() {"12", "14", "16", "18", "20", "22", "24", "26", "28", "36", "48", "50"})
@@ -194,7 +195,7 @@ Partial Class frmLab3
         Me.GroupBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GroupBox1.Location = New System.Drawing.Point(142, 287)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(307, 151)
+        Me.GroupBox1.Size = New System.Drawing.Size(317, 151)
         Me.GroupBox1.TabIndex = 4
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "ForeColor"
