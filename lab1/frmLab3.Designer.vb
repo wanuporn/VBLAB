@@ -347,7 +347,7 @@ Partial Class frmLab3
         Me.Controls.Add(Me.btnDown)
         Me.Controls.Add(Me.txtInput)
         Me.Name = "frmLab3"
-        Me.Text = "Form3"
+        Me.Text = "frmLab3"
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox2.ResumeLayout(False)
         Me.ResumeLayout(False)
